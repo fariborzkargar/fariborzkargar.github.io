@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding-top: 5%;
+}
+.disc h3{
+	font-weight: bold;
+	color: #ff552c;
+}
+.lab-tour-block a:hover{
+	color: #ff552c;
+	transition-timing-function: ease;
+	transition-duration: 0.1s;
+	text-decoration: none;
+}
+.lab-tour-block a{
+	color: black;
+}
+.lab-tour-block h2{
+	margin-top: 0;
+	
+}

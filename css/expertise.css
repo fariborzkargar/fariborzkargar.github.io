@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mesh img{
+    width: 100%;
+    border: 0px;
+    position: relative;
+    z-index: -1;
+}
+
+.logos{
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	padding: 3rem;
+	height: 200px;
+	width: 700px;
+}
+
+.blue-div{
+/*	border-right: 5px solid #1cbde0;*/
+	width: 8px;
+	height: 120px;
+	background-color: #1cbde0;
+	margin-right: 30px;
+}
+
+.page-title{
+	top: 150px;
+	left: 20%;
+	right: 20%;
+	bottom: auto;
+	
+}
+
+@media (max-width: 1025px) {
+  .logos{
+   display: none;
+	  
+	
+}
+}
+
+.blue-block{
+	background-color: #02b2f4;
+	color: white;
+	height: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.blue-block h2{
+	margin: 0px;
+}
+.gray-block{
+	margin: 15px 0;
+	
+/*	margin: 15px;*/
+}
+.gray-block h3{
+	padding: 1rem;
+}
+
+.block-symbol{
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.profile-block-content p{
+	font-size: 2.2rem;
+}
+.profile-block-content img{
+	padding: 2rem;
+}
+
+.expertise-highlights{
+	text-align: left;
+	background-color: #dedede;
+}
+
+.expertise-highlights .img-wrap {
+	min-height: 200px;
+}
+.expertise-highlights .col-md-4 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+.plus{
+	text-align: right;
+	color: #ff552c;
+}
+.panel-body{
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	font-size: 16px;
+}
+.panel-body a{
+	color: #ff552c;
+}
+
+.panel-expertise{
+	background-color: #F4F4F4;
+}
+
+.panel-title{
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+.panel-heading a{
+	text-decoration: none;
+}
+
+.panel-body{
+	background-color: white;
+	border: 0px;
+}
+.panel-title span{
+	color: #ff552c;
+	font-size: 30px;
+}
